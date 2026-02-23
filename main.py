@@ -78,6 +78,5 @@ def intrams_team(e=None):
         )
     else:
         display("No team assigned for this grade and section.", target="output")
-
-document.getElementById("checkBtn").onclick = intrams_team
+    document.getElementById("checkBtn").onclick = intrams_team
 
