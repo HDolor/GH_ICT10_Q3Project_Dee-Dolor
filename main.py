@@ -61,9 +61,9 @@ def intrams_team(e=None):
 
     team_map = {
         "7": {"Sapphire": "Red Bulldogs", "Ruby": "Green Hornets", "Topaz": "Yellow Tigers", "Emerald": "Blue Bears"},
-        "8": {"Sapphire": "Blue Bears", "Ruby": "Red Bulldogs", "Topaz": "Green Hornets", "Emerald": "Yellow Tigers"},
-        "9": {"Sapphire": "Yellow Tigers", "Ruby": "Red Bulldogs", "Topaz": "Green Hornets", "Emerald": "Blue Bears"},
-        "10": {"Sapphire": "Green Tigers", "Ruby": "Yellow Tigers", "Topaz": "Blue Bears", "Emerald": "Green Hornets"}
+        "8": {"Sapphire": "Yellow Tigers", "Ruby": "Blue Bears", "Topaz": "Green Hornets", "Emerald": "Red Bulldogs"},
+        "9": {"Sapphire": "Green Tigers", "Ruby": "Red Bulldogs", "Topaz": "Yellow Tigers", "Emerald": "Blue Bears"},
+        "10": {"Sapphire": "Green Tigers", "Ruby": "Blue Bears", "Topaz": "Red Bulldogs", "Emerald": "Yellow Tigers"}
     }
 
 
@@ -108,4 +108,5 @@ def play(e):
     "Jennifer Uy",
     "Francesca Yao"]
     for pl in pl:
-        display(f'{pl}', target="out")
+        display(f'{li} {pl}', target="out")
+
