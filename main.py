@@ -62,8 +62,8 @@ def intrams_team(e=None):
     team_map = {
         "7": {"Sapphire": "Red Bulldogs", "Ruby": "Green Hornets", "Topaz": "Yellow Tigers", "Emerald": "Blue Bears"},
         "8": {"Sapphire": "Yellow Tigers", "Ruby": "Blue Bears", "Topaz": "Green Hornets", "Emerald": "Red Bulldogs"},
-        "9": {"Sapphire": "Green Tigers", "Ruby": "Red Bulldogs", "Topaz": "Yellow Tigers", "Emerald": "Blue Bears"},
-        "10": {"Sapphire": "Green Tigers", "Ruby": "Blue Bears", "Topaz": "Red Bulldogs", "Emerald": "Yellow Tigers"}
+        "9": {"Sapphire": "Green Hornets", "Ruby": "Red Bulldogs", "Topaz": "Yellow Tigers", "Emerald": "Blue Bears"},
+        "10": {"Sapphire": "Green Hornets", "Ruby": "Blue Bears", "Topaz": "Red Bulldogs", "Emerald": "Yellow Tigers"}
     }
 
 
